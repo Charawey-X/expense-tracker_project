@@ -401,6 +401,7 @@ body.specialpage {
 }
 .papertrail {
   font: "Fredericka the Great" !important;
+  overflow: hidden;
 }
 .incomexpense {
   margin: auto;
