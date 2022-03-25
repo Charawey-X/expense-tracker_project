@@ -64,22 +64,16 @@ nav img {
   background-color: chocolate;
 }
 
-#cover0 {
-  float: left;
-  margin-top: -18% !important;
-  width: 50% !important;
-  height: 50% !important;
-  z-index: -1;
-}
-
-#cover {
-  z-index: -1;
-  float: right;
-  margin-top: 130px;
+#sectionOne {
+  background-image: url("../assets/coverimage.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
 }
 
 .row2 {
-  height: 650px;
+  height: 100%;
 }
 
 div #section0ne {
@@ -103,26 +97,36 @@ div #section0ne {
   color: slategray;
 }
 
-.row2 img {
-  width: 50%;
-  height: 100%;
-}
-
 /*--SALMA--*/
 
 /*--YVONNE--*/
 
 .row3 {
-  height: 650px;
+  overflow: hidden;
+  margin-bottom: 0;
 }
 
-.row3 img {
-  height: 80%;
-  width: 100%;
+.div-image {
+  height: 400px;
+  width: 300px;
+  padding-top: 30px;
+  border-radius: 10px;
+  position: relative;
+  float: left;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  margin-left: 20%;
+  padding: 0;
+  z-index: -1;
+  opacity: 1;
+  transform: translate3d(60px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg);
+  transform-style: preserve-3d;
 }
 
 .section2-title h2 {
   text-align: center;
+  margin: 20px;
   font-size: 25px;
   font-weight: bolder;
   font-family: "Fredericka the Great", cursive;
@@ -137,9 +141,12 @@ div #section0ne {
 .section2-text ul {
   font-family: "Fredericka the Great", cursive;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
-  margin-top: 10%;
+  float: right;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  margin-right: 20%;
   list-style: none !important;
   opacity: 1;
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
@@ -237,58 +244,60 @@ div #section0ne {
   }
 }
 
-.row4 {
-  height: 650px;
-}
-
-.three {
-  background-color: lightgrey;
-}
-
-#sectionThree img {
-  height: 80%;
-}
-
-.row3-text ul {
+.row4-text ul {
   font-family: "Fredericka the Great";
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   list-style: none;
   font-weight: bold;
   margin-top: 10%;
 }
 
-/*--
-#sectionTwo {
-  height:655px;
+.rowextra {
+  align-items: center;
+  font-family: "Fredericka the Great";
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
-
-.div-image {
-  height: 100%;
-  position: relative;
-  margin-left: 60px;
-  margin-top: -60px;
-  padding: 0;
-  z-index: -1;
-  opacity: 1;
-  transform: translate3d(60px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
-    rotateY(0deg) rotateZ(0deg) skew(0deg);
-  transform-style: preserve-3d;
+.rowextra h2.headings {
+  color: green;
+  font-weight: bold;
+  margin: 10px;
 }
 
-#sectionThree {
-  height: 655px;
+.rowextra h2 {
+  text-align: center;
+  margin: 10px;
 }
 
-.section3 {
-  background-color: #3ba139;
+.rowextra img {
+  width: 150px;
+  height: 150px;
+  padding: 10px 10px;
 }
 
-.section3 .container {
-  position: relative;
+#one-image,
+#two-image,
+#three-image {
   text-align: center;
 }
+
+.row4 {
+  color: white;
+  background-color: green;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Berkshire Swash";
+}
+
+.last {
+  font-family: "Fredericka the Great";
+}
+/*--
 
 #one,
 #three {
@@ -366,7 +375,7 @@ div #section0ne {
 .formbox {
   background: rgba(0, 0, 0, 0.4);
   margin-top: 0px;
-  height: 80vh;
+  height: 100%;
   box-shadow: -1px 1px 60px 10px black inset;
 }
 
@@ -462,68 +471,9 @@ input[type="number"] {
   margin-left: 5%;
   font-size: 2rem;
 }
-input[type="number"]:focus {
-  background-color: rgba(216, 186, 53, 0.877);
-  color: white;
-  box-shadow: none;
-  outline: none;
-}
-#statement {
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border-radius: 79px;
-  background: #8b841d;
-  box-shadow: 50px 50px 92px #948e33, -50px -50px 92px #fcfc0b;
-  font-size: 25px;
-  padding: 5px;
-  width: 50%;
-}
-#toast {
-  /* By Default, Hidden */
-  visibility: hidden;
-  min-width: 250px;
-  background-color: rgb(231, 39, 39);
-  color: #fff;
-  text-align: left;
-  border-radius: 2px;
-  padding: 16px;
-  position: fixed;
-  z-index: 1;
-  right: 10px;
-  bottom: 30px;
-}
-.show-bar {
-  visibility: visible !important;
-  animation: fadein 0.5s, fadeout 0.5s 4.5s;
-}
 
-@keyframes fadein {
-  from {
-    bottom: 0;
-    opacity: 0;
-  }
-  to {
-    bottom: 30px;
-    opacity: 1;
-  }
+.papertrail {
+  font-family: "Fredericka the Great";
+  font-weight: bold;
 }
-
-/* when the Snackbar Disappears
-    from the Screen */
-@keyframes fadeout {
-  from {
-    bottom: 30px;
-    opacity: 1;
-  }
-  to {
-    bottom: 0;
-    opacity: 0;
-  }
-}
-
-/* html {
-  scroll-behavior: smooth;
-} */
-
 /*--ROBERT--*/
