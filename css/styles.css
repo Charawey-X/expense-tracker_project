@@ -377,12 +377,18 @@ div #section0ne {
 }
 .engine {
   border: 1px solid black;
+  width: 80%;
+  margin: auto;
+  border-radius: 79px;
+  background: #effeff;
+  box-shadow: 50px 50px 92px rgb(168, 168, 168), -50px -50px 92px #3ba139;
+  margin-top: 2rem;
 }
 body.specialpage {
-  background-color: #d7c86d;
+  background-color: #3ba139;
 }
 .papertrail {
-  font: "Fredericka the Great";
+  font: "Fredericka the Great" !important;
 }
 .incomexpense {
   margin: auto;
@@ -449,8 +455,75 @@ input[type="number"] {
   border: none;
   border-radius: 13px;
 }
+#save :hover {
+  background-color: chocolate;
+}
 .displayedb {
   margin-left: 5%;
   font-size: 2rem;
 }
+input[type="number"]:focus {
+  background-color: rgba(216, 186, 53, 0.877);
+  color: white;
+  box-shadow: none;
+  outline: none;
+}
+#statement {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 79px;
+  background: #8b841d;
+  box-shadow: 50px 50px 92px #948e33, -50px -50px 92px #fcfc0b;
+  font-size: 25px;
+  padding: 5px;
+  width: 50%;
+}
+#toast {
+  /* By Default, Hidden */
+  visibility: hidden;
+  min-width: 250px;
+  background-color: rgb(231, 39, 39);
+  color: #fff;
+  text-align: left;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  right: 10px;
+  bottom: 30px;
+}
+.show-bar {
+  visibility: visible !important;
+  animation: fadein 0.5s, fadeout 0.5s 4.5s;
+}
+
+@keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+/* when the Snackbar Disappears
+    from the Screen */
+@keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+/* html {
+  scroll-behavior: smooth;
+} */
+
 /*--ROBERT--*/

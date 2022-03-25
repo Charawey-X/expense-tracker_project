@@ -16,36 +16,37 @@
 </head>
 <body class="specialpage">
     <div class="container engine">
-        <h1 class="papertrail">PAPER TRAIL</h1>
-        <h3 id="cbtext" class="displayedb">Closing Balance</h3>
+        <h1 class="papertrail text-center">PAPER TRAIL</h1>
+        <h3 id="cbtext" class="displayedb">Your Balance</h3>
         <h4 id ='closingbalance' class="displayedb">0.00 $</h4>
         <div class="row incomexpense">
             <div class="col-md-5 amntincome">
                 
                 <h3>INCOME</h3>
-                <H3>0.00 $</H3>
+                <h3 id="showincome">0.00 $</h3>
             </div>
             <div class="col-md-5 amntexpense">
                 <h3>EXPENSE</h3>
-                <H3>0.00 $</H3>
+                <h3 id="showexpense">0.00 $</h3>
             </div>
         </div>
         <div class="col-md-8 mx-auto form">
             <div class="entry">
-                <input type="text"placeholder='Type description for the Expense or Income'>
+                <input type="text"placeholder='Type description for the Expense or Income' id="description">
             </div>
             <label for="" class="enterAmount">Please Enter the Amount <br> Positive being Income and Negative being Expense</label>
             <div class="">
-                <input type="number" class="form-control">
+                <input type="number" class="form-control" id="enteredAmount">
             </div>
             <div class="btn-add col-md-4">
-                <button class="button mx-5" type="button" id="Save" onclick="expense()">Add Transaction</button>
+                <button class="button mx-5" type="button" id="Save" onclick="tracker()">Add Transaction</button>
             </div>
         </div>
     </div>
-    <div class="transaction-history text-center mt-3">
+    <div class="transaction-history text-center mt-3" id="transaction_trail">
         <h2>TRANSACTION HISTORY</h2>
         <h3>Click a history Item to delete it</h3>
     </div>
+    <script src="/js/tracker.js"></script>
 </body>
 </html>
