@@ -141,12 +141,12 @@ div #section0ne {
 .section2-text ul {
   font-family: "Fredericka the Great", cursive;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
   float: right;
   margin-top: 70px;
   margin-bottom: 50px;
-  margin-right: 20%;
+  margin-right: 10%;
   list-style: none !important;
   opacity: 1;
   transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
@@ -166,6 +166,8 @@ div #section0ne {
   border: 2px solid;
 }
 
+
+/*
 .glow-on-hover {
   width: 220px;
   height: 50px;
@@ -244,6 +246,8 @@ div #section0ne {
   }
 }
 
+
+*/
 .row4-text ul {
   font-family: "Fredericka the Great";
   font-size: 20px;
@@ -289,9 +293,8 @@ div #section0ne {
   text-align: center;
   margin-top: 50px;
   padding-top: 50px;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: "Berkshire Swash";
+  font-size: 25px;
+  font-family: "Fredericka the Great";
 }
 
 .last {
