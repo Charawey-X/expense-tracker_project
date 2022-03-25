@@ -18,8 +18,8 @@ This is a website for an expense tracker. One can input income & expenses and vi
 - jQuery
 
 ## Collaborators
-[YVONNE](https://github.com/Charawey-X)
-[ROBERT](https://github.com/CodeRichBob)
+[YVONNE](https://github.com/Charawey-X)<br>
+[ROBERT](https://github.com/CodeRichBob)<br>
 [SALMA](https://github.com/Moglie02)
 
 ## Support and contact details
