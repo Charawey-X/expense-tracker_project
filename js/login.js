@@ -22,7 +22,7 @@ function signIn(e){
   var user=  localStorage.getItem('username');
   var passwordItem=  localStorage.getItem('password');
   if(firstName.value===user && password.value === passwordItem){
-    window.location.href='../index.html'
+    window.location.href='tracker.html'
 
   }
   else{
