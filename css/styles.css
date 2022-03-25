@@ -392,7 +392,6 @@ div #section0ne {
   background: #effeff;
   box-shadow: 50px 50px 92px rgb(168, 168, 168), -50px -50px 92px #3ba139;
   margin-top: 2rem;
-
 }
 body.specialpage {
   background-color: #3ba139;
@@ -479,6 +478,17 @@ input[type="number"] {
 .papertrail {
   font-family: "Fredericka the Great";
   font-weight: bold;
+}
+#statement {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 79px;
+  background: #8b841d;
+  box-shadow: 50px 50px 92px #948e33, -50px -50px 92px #fcfc0b;
+  font-size: 25px;
+  padding: 5px;
+  width: 40%;
 }
 
 /*--ROBERT--*/
