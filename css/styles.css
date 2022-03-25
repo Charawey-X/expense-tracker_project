@@ -69,7 +69,7 @@ nav img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height:600px;
+  height: 600px;
 }
 
 .row2 {
@@ -102,20 +102,20 @@ div #section0ne {
 /*--YVONNE--*/
 
 .row3 {
-  overflow:hidden;
-  margin-bottom:0;
+  overflow: hidden;
+  margin-bottom: 0;
 }
 
 .div-image {
-  height:400px;
-  width:300px;
+  height: 400px;
+  width: 300px;
   padding-top: 30px;
   border-radius: 10px;
   position: relative;
   float: left;
   margin-top: 50px;
   margin-bottom: 70px;
-  margin-left:20%;
+  margin-left: 20%;
   padding: 0;
   z-index: -1;
   opacity: 1;
@@ -126,7 +126,7 @@ div #section0ne {
 
 .section2-title h2 {
   text-align: center;
-  margin:20px;
+  margin: 20px;
   font-size: 25px;
   font-weight: bolder;
   font-family: "Fredericka the Great", cursive;
@@ -143,7 +143,7 @@ div #section0ne {
   font-weight: bold;
   font-size: 20px;
   text-align: center;
-  float:right;
+  float: right;
   margin-top: 70px;
   margin-bottom: 50px;
   margin-right: 20%;
@@ -256,44 +256,45 @@ div #section0ne {
 .rowextra {
   align-items: center;
   font-family: "Fredericka the Great";
-  margin-top:50px;
+  margin-top: 50px;
   margin-bottom: 100px;
 }
 
 .rowextra h2.headings {
-  color:green;
+  color: green;
   font-weight: bold;
-  margin:10px;
+  margin: 10px;
 }
 
 .rowextra h2 {
   text-align: center;
-  margin:10px;
+  margin: 10px;
 }
 
 .rowextra img {
-  width:150px;
-  height:150px;
+  width: 150px;
+  height: 150px;
   padding: 10px 10px;
 }
 
-#one-image, #two-image, #three-image {
+#one-image,
+#two-image,
+#three-image {
   text-align: center;
 }
-
 
 .row4 {
-  color:white;
-  background-color:green;
+  color: white;
+  background-color: green;
   text-align: center;
-  margin-top:50px;
+  margin-top: 50px;
   padding-top: 50px;
-  font-size:20px;
-  font-weight:bold;
-  font-family:"Berkshire Swash";
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Berkshire Swash";
 }
 
-.last{
+.last {
   font-family: "Fredericka the Great";
 }
 /*--
@@ -384,15 +385,20 @@ div #section0ne {
   border: 0px;
 }
 .engine {
-  border: transparent;
+  border: 1px solid black;
+  width: 80%;
+  margin: auto;
+  border-radius: 79px;
+  background: #effeff;
+  box-shadow: 50px 50px 92px rgb(168, 168, 168), -50px -50px 92px #3ba139;
+  margin-top: 2rem;
+
 }
 body.specialpage {
-  background-color: #d7c86d;
+  background-color: #3ba139;
 }
 .papertrail {
-  font-family: "Fredericka the Great";
-  font-weight: bold;
-  font-size:30px;
+  font: "Fredericka the Great" !important;
 }
 .incomexpense {
   margin: auto;
@@ -461,9 +467,18 @@ input[type="number"] {
   border-radius: 13px;
 }
 
+#save :hover {
+  background-color: chocolate;
+}
+
 .displayedb {
   margin-left: 5%;
   font-size: 2rem;
+}
+
+.papertrail {
+  font-family: "Fredericka the Great";
+  font-weight: bold;
 }
 
 /*--ROBERT--*/
