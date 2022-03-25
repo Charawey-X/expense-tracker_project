@@ -384,13 +384,15 @@ div #section0ne {
   border: 0px;
 }
 .engine {
-  border: 1px solid black;
+  border: transparent;
 }
 body.specialpage {
   background-color: #d7c86d;
 }
 .papertrail {
-  font: "Fredericka the Great";
+  font-family: "Fredericka the Great";
+  font-weight: bold;
+  font-size:30px;
 }
 .incomexpense {
   margin: auto;
@@ -400,7 +402,7 @@ body.specialpage {
   margin: auto;
   margin-top: 10px;
   text-align: center;
-  width: 40%;
+  width: 30%;
   background-color: rgb(0, 128, 0, 0.7);
   padding-top: 5px;
   color: white;
@@ -413,7 +415,7 @@ body.specialpage {
   margin: auto;
   margin-top: 10px;
   text-align: center;
-  width: 40%;
+  width: 30%;
   background-color: #35365d;
   padding-top: 5px;
   color: white;
@@ -437,6 +439,7 @@ input[type="text"] {
   font-size: 1.3rem;
   font-weight: 700;
 }
+
 input[type="number"] {
   background-color: #a57b1b;
   border-bottom: none;
@@ -457,13 +460,10 @@ input[type="number"] {
   border: none;
   border-radius: 13px;
 }
+
 .displayedb {
   margin-left: 5%;
   font-size: 2rem;
 }
 
-.papertrail {
-  font-family: "Fredericka the Great";
-  font-weight:bold;
-}
 /*--ROBERT--*/
